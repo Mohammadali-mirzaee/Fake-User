@@ -1,2 +1,2 @@
 # Fake-User
-Fake user generator
+Fake user generator and random pics
