@@ -5,7 +5,6 @@
         }).then(response => response.json())
         .then(resultat =>{
            console.log(resultat.results)
-            //console.log(resultat.results[0].picture.large)
             document.querySelector("#validationCustom01").setAttribute("value",resultat.results[0].name.first)
             document.querySelector("#validationCustom02").setAttribute("value", resultat.results[0].name.last)
             document.querySelector("#validationCustomemail").setAttribute("value", resultat.results[0].email)
@@ -24,25 +23,6 @@
             window.location.reload()
         })
         
-      /*    document.querySelector("#sendbtn").addEventListener("click", () => {
-            console.log("#sendbtn")
-                for(let i = 0; i<sparatResutat.length; i++){
-
-                   // let divinfo = document.querySelector(".divinfo")
-                    let ul = document.querySelector('.ul')
-                    let li = document.createElement("li")
-                    li.textContent = sparatResutat[i].results[0].name.first 
-                    li.textContent = sparatResutat[i].results[0].name.last
-                    ul.appendChild(li)
-                        //console.log(divinfo.textContent = sparatResutat[i].results[0].name.first)
-                    //divinfo.appendChild(span)
-
-                }
-
-        })  */
-
-       
-
         // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
