@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">   
+    <title>Random User</title>
+</head>
+<body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item" >
+          <a class="nav-link active" id="navbar-list" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galleri.html" id="navbar-list">Galleri</a>
+        </li>
+      </ul>
+      <h1 class="ml11">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Fake User</span>
+        </span>
+      </h1>       
+      <img class="image" id="image-profil"src="" alt="">
+      <div id="form">
+        <form class="needs-validation">
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom01">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom02">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="" required>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustomUsername">Email</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationCustomemail" placeholder="Email" value= "" aria-describedby="inputGroupPrepend" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">City</label>
+                <input type="text" class="form-control" id="validationCustom03" placeholder="City" value="" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">State</label>
+                <input type="text" class="form-control" id="validationCustom04" placeholder="State" value="" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom05">Postcode</label>
+                <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" value="" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom05">Phone</label>
+                <input type="text" class="form-control" id="validationCustom06" placeholder="Tell" value="" required>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">Country</label>
+                <input type="text" class="form-control" id="validationCustom07" placeholder="Country" value="" required>
+              </div>
+            </div>
+          </form>
+        </div>
+        <button type="button" class="btn btn-outline-secondary" id="refreshbtn">Refresh</button>
+
+        <div class="divinfo">
+            <ul class="ul">
+            </ul>
+        </div>
+<!--         <button type="button" class="btn btn-success" id="sendbtn">Success</button>
+ -->        
+       
+        
+        
+       
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
